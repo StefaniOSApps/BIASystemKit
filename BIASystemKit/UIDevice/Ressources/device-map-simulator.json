@@ -1,0 +1,9 @@
+[
+  {
+    "modelName": "i386",
+    "formatted": "32-bit Simulator"
+  },{
+    "modelName": "x86_64",
+    "formatted": "64-bit Simulator"
+  }
+]
