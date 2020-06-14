@@ -10,6 +10,6 @@ Pod::Spec.new do |s|
   s.source_files = 'BIASystemKit/**/*.{h,m,swift,xcdatamodeld,json}'
   s.swift_version = '5.0'
   s.resources = 'BIASystemKit/UIDevice/Ressources/*.json'
-  s.ios.resources = 'BIASystemKit/UIDevice/Ressources/*.json'
+  s.ios.resources = 'BIASystemKit/UIDevice/Ressources/*'
   s.ios.framework  = 'UIKit'
 end
