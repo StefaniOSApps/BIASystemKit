@@ -4,7 +4,12 @@
 //
 
 import Foundation
+import UIKit
 
 extension ExampleViewController {
-  final class ViewModel {}
+  final class ViewModel {
+    let deviceInfos: [String] = [
+      "You are using a '\(UIDevice.current.formattedName)'"
+    ]
+  }
 }

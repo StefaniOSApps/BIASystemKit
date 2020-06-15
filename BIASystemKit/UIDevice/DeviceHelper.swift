@@ -24,26 +24,14 @@ class DeviceHelper {
 }
 
 // MARK: Ressources
-extension DeviceHelper {
+private extension DeviceHelper {
 
-  private static var deviceList: [DeviceMap] = {
-    return iPadList + iPhoneList + iPodList + iWatchList + simulatorList
-  }()
-  private static var iPadList: [DeviceMap] = {
-    return devices(filename: "device-map-ipad")
-  }()
-  private static var iPhoneList: [DeviceMap] = {
-    return devices(filename: "device-map-iphone")
-  }()
-  private static var iPodList: [DeviceMap] = {
-    return devices(filename: "device-map-ipod")
-  }()
-  private static var iWatchList: [DeviceMap] = {
-    return devices(filename: "device-map-iwatch")
-  }()
-  private static var simulatorList: [DeviceMap] = {
-    return devices(filename: "device-map-simulator")
-  }()
+  static let deviceList = iPadList + iPhoneList + iPodList + iWatchList + simulatorList
+  static let iPadList = devices(filename: "device-map-ipad")
+  static let iPodList = devices(filename: "device-map-ipod")
+  static let iPhoneList = devices(filename: "device-map-iphone")
+  static let iWatchList = devices(filename: "device-map-iwatch")
+  static let simulatorList = devices(filename: "device-map-simulator")
 
   private static func devices(filename: String) -> [DeviceMap] {
     guard let url = Bundle(for: self).url(forResource: filename, withExtension: "json") else { return [] }

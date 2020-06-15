@@ -22,6 +22,6 @@ class ExampleViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
 
-    print(UIDevice.current.formattedName)
+    viewModel.deviceInfos.forEach({ print($0) })
   }
 }
