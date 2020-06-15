@@ -18,12 +18,44 @@
 	</b>
 </p>
 
-#### Installation
-```ruby
-pod 'BIASystemKit'
+## Installation
+
+### Requirements
+
+
+| Language  | Branch                                                           | Pod version | Xcode version         | iOS version |
+| --------- | ---------------------------------------------------------------- | ----------- | --------------------- | ----------- |
+| Swift 5.0 | [swift-5.0](https://github.com/StefaniOSApps/BIASystemKit/tree/master) | >= 1.3.x    | Xcode 11.0+           | iOS 11.0+    |
+
+
+
+### CocoaPods
+
+[CocoaPods](http://cocoapods.org) is a dependency manager for Cocoa projects. You can install it with the following command:
+
+```bash
+$ gem install cocoapods
 ```
 
-#### Example
+To integrate BIASystemKit into your Xcode project using CocoaPods, specify it in your `Podfile`:
+
+```ruby
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '11.0'
+use_frameworks!
+
+target '<Your Target Name>' do
+    pod 'BIASystemKit'
+end
+```
+
+Then, run the following command:
+
+```bash
+$ pod install
+```
+
+## Example
 ```swift
 UIDevice.current.formattedName
 // prints: iPhone 11 PRO
