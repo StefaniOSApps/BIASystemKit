@@ -18,7 +18,6 @@ jobs:
     - uses: actions/checkout@master
     - name: Install Frameworks
       run: |
-        cd BIASystemKit
         pod install --repo-update
       shell: bash
     - name: Build
