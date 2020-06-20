@@ -4,6 +4,7 @@
 	</a>
 	<img src="https://img.shields.io/cocoapods/v/BIASystemKit.svg?style=flat-square" alt="Cocoapods"/>
 	<img src="https://img.shields.io/badge/Carthage-compatible-blue.svg?style=flat-square" alt="Carthage"/>
+	<a href="https://codebeat.co/projects/github-com-stefaniosapps-biasystemkit-master"><img alt="codebeat badge" src="https://codebeat.co/badges/43e4f011-c685-4b7b-b830-9914393eccd9" /></a>
 	<a href="http://cocoapods.org/pods/BIASystemKit">
 		<img src="https://img.shields.io/cocoapods/p/BIASystemKit.svg?style=flat-square" alt="iOS"/>
 	</a>
