@@ -1,8 +1,6 @@
 name: Swift
 
 on:
-  push:
-    branches: [ master ]
   pull_request:
     branches: [ master ]
 
@@ -16,9 +14,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@master
-    - name: Install Frameworks
-      run: |
-        pod install --repo-update
-      shell: bash
-    - name: Build
-      run: swift build -v
+    - name: Switch XCode Version
+      run: sudo xcode-select -s /Applications/Xcode_11.app
+
