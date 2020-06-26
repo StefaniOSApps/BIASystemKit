@@ -4,3 +4,7 @@
 
 # Ignore Finder artifacts on OSX
 .DS_Store
+
+# Swift Package Manager
+.build/
+.swiftpm/
