@@ -57,7 +57,13 @@ $ pod install
 ```
 
 ## Example
+
 ```swift
-UIDevice.current.formattedName
-// prints: iPhone 11 PRO
+print(UIDevice.current.formattedName)
+// iPhone 11 Pro Max
+```
+
+```objective-c
+NSLog(@"%@", [UIDevice currentDevice].formattedName)
+// iPad PRO 11" (Wifi)
 ```
