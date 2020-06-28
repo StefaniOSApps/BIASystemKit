@@ -34,7 +34,7 @@ private extension DeviceHelper {
   static let simulatorList = devices(filename: "device-map-simulator")
 
   private static func devices(filename: String) -> [DeviceMap] {
-    guard let url = Bundle(for: DeviceHelper.self).url(forResource: filename, withExtension: "json") else { return [] }
+    guard let url = Bundle(for: self).url(forResource: filename, withExtension: "json") else { return [] }
 
     do {
       let data = try Data(contentsOf: url)

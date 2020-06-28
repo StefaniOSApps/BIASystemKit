@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'BIASystemKit'
-  s.version = '0.1.1'
+  s.version = '1.0'
   s.license = 'MIT'
   s.summary = 'iOS SystemKit Framework (best-ios-apps.de)'
   s.homepage = 'https://www.best-ios-apps.de'

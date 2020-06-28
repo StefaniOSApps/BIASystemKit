@@ -7,7 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3629E5FC24A6B4300096E54D /* device-map-ipad.json in Resources */ = {isa = PBXBuildFile; fileRef = 36FA0D9D2496EF6E007268F7 /* device-map-ipad.json */; };
+		3629E5FD24A6B4330096E54D /* device-map-iphone.json in Resources */ = {isa = PBXBuildFile; fileRef = 36FA0D9F2496EF6E007268F7 /* device-map-iphone.json */; };
+		3629E5FE24A6B4350096E54D /* device-map-ipod.json in Resources */ = {isa = PBXBuildFile; fileRef = 36FA0D9E2496EF6E007268F7 /* device-map-ipod.json */; };
+		3629E5FF24A6B4370096E54D /* device-map-iwatch.json in Resources */ = {isa = PBXBuildFile; fileRef = 36FA0DA02496EF6E007268F7 /* device-map-iwatch.json */; };
+		3629E60024A6B4390096E54D /* device-map-simulator.json in Resources */ = {isa = PBXBuildFile; fileRef = 36FA0DA12496EF6E007268F7 /* device-map-simulator.json */; };
 		3661A8AD2496C43E00E08AAA /* UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3661A8AC2496C43E00E08AAA /* UIDevice.swift */; };
+		368281C624A90D4200C196D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 368281C524A90D4200C196D6 /* AppDelegate.m */; };
+		368281CC24A90D4200C196D6 /* ExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 368281CB24A90D4200C196D6 /* ExampleViewController.m */; };
+		368281D124A90D4200C196D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 368281D024A90D4200C196D6 /* Assets.xcassets */; };
+		368281D424A90D4200C196D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 368281D224A90D4200C196D6 /* LaunchScreen.storyboard */; };
+		368281D724A90D4200C196D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 368281D624A90D4200C196D6 /* main.m */; };
+		368281DB24A90D8300C196D6 /* BIASystemKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 369E579D2496C10900253C90 /* BIASystemKit.framework */; };
+		368281DC24A90D8300C196D6 /* BIASystemKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 369E579D2496C10900253C90 /* BIASystemKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		368281E224A90E0000C196D6 /* ExampleViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 368281E124A90E0000C196D6 /* ExampleViewModel.m */; };
 		368B149324A6A400001E8D8C /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DF030E24A6A22A00C58759 /* Tests.swift */; };
 		369E57A22496C10900253C90 /* BIASystemKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 369E57A02496C10900253C90 /* BIASystemKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		369E57AF2496C11B00253C90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369E57AE2496C11B00253C90 /* AppDelegate.swift */; };
@@ -27,6 +40,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		368281DD24A90D8300C196D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 369E57942496C10900253C90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 369E579C2496C10900253C90;
+			remoteInfo = BIASystemKit;
+		};
 		36A02A662496CE2A00DBDEB6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 369E57942496C10900253C90 /* Project object */;
@@ -44,6 +64,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		368281DF24A90D8300C196D6 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				368281DC24A90D8300C196D6 /* BIASystemKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		36A02A4F2496CABB00DBDEB6 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -61,16 +92,25 @@
 		3604F3012496E1D1005276A7 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = SOURCE_ROOT; };
 		362BE4972496E26B00C7CDDD /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = SOURCE_ROOT; };
 		3661A8AC2496C43E00E08AAA /* UIDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDevice.swift; sourceTree = "<group>"; };
+		368281C224A90D4100C196D6 /* Example ObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Example ObjC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		368281C424A90D4200C196D6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		368281C524A90D4200C196D6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		368281CA24A90D4200C196D6 /* ExampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleViewController.h; sourceTree = "<group>"; };
+		368281CB24A90D4200C196D6 /* ExampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleViewController.m; sourceTree = "<group>"; };
+		368281D024A90D4200C196D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		368281D324A90D4200C196D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		368281D624A90D4200C196D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		368281E024A90E0000C196D6 /* ExampleViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleViewModel.h; sourceTree = "<group>"; };
+		368281E124A90E0000C196D6 /* ExampleViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleViewModel.m; sourceTree = "<group>"; };
 		36992DBA2496E29B002CFC19 /* BIASystemKit.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = BIASystemKit.podspec; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		36992DBB2496E304002CFC19 /* LICENCE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENCE; sourceTree = SOURCE_ROOT; };
 		369E579D2496C10900253C90 /* BIASystemKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BIASystemKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		369E57A02496C10900253C90 /* BIASystemKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIASystemKit.h; sourceTree = "<group>"; };
-		369E57AC2496C11B00253C90 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		369E57AC2496C11B00253C90 /* Example Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Example Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		369E57AE2496C11B00253C90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		369E57B22496C11B00253C90 /* ExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleViewController.swift; sourceTree = "<group>"; };
 		369E57B72496C11E00253C90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		369E57BA2496C11E00253C90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		369E57BC2496C11E00253C90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		369E57C32496C21000253C90 /* Project-Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Project-Debug.xcconfig"; sourceTree = "<group>"; };
 		369E57C42496C22A00253C90 /* Project-Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Project-Release.xcconfig"; sourceTree = "<group>"; };
 		369E57C72496C34E00253C90 /* ExampleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleViewModel.swift; sourceTree = "<group>"; };
@@ -86,6 +126,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		368281BF24A90D4100C196D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				368281DB24A90D8300C196D6 /* BIASystemKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		369E579A2496C10900253C90 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -123,6 +171,34 @@
 			path = Maintenance;
 			sourceTree = "<group>";
 		};
+		368281A524A90CBE00C196D6 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				369E57AE2496C11B00253C90 /* AppDelegate.swift */,
+				369E57B22496C11B00253C90 /* ExampleViewController.swift */,
+				369E57C72496C34E00253C90 /* ExampleViewModel.swift */,
+				369E57B72496C11E00253C90 /* Assets.xcassets */,
+				369E57B92496C11E00253C90 /* LaunchScreen.storyboard */,
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
+		368281C324A90D4200C196D6 /* ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				368281C424A90D4200C196D6 /* AppDelegate.h */,
+				368281C524A90D4200C196D6 /* AppDelegate.m */,
+				368281E024A90E0000C196D6 /* ExampleViewModel.h */,
+				368281E124A90E0000C196D6 /* ExampleViewModel.m */,
+				368281CA24A90D4200C196D6 /* ExampleViewController.h */,
+				368281CB24A90D4200C196D6 /* ExampleViewController.m */,
+				368281D024A90D4200C196D6 /* Assets.xcassets */,
+				368281D224A90D4200C196D6 /* LaunchScreen.storyboard */,
+				368281D624A90D4200C196D6 /* main.m */,
+			);
+			path = ObjC;
+			sourceTree = "<group>";
+		};
 		369E57932496C10900253C90 = {
 			isa = PBXGroup;
 			children = (
@@ -140,8 +216,9 @@
 			isa = PBXGroup;
 			children = (
 				369E579D2496C10900253C90 /* BIASystemKit.framework */,
-				369E57AC2496C11B00253C90 /* Example.app */,
+				369E57AC2496C11B00253C90 /* Example Swift.app */,
 				36A02A602496CE2A00DBDEB6 /* BIASystemKitTests.xctest */,
+				368281C224A90D4100C196D6 /* Example ObjC.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -158,12 +235,8 @@
 		369E57AD2496C11B00253C90 /* Example */ = {
 			isa = PBXGroup;
 			children = (
-				369E57BC2496C11E00253C90 /* Info.plist */,
-				369E57AE2496C11B00253C90 /* AppDelegate.swift */,
-				369E57B22496C11B00253C90 /* ExampleViewController.swift */,
-				369E57C72496C34E00253C90 /* ExampleViewModel.swift */,
-				369E57B72496C11E00253C90 /* Assets.xcassets */,
-				369E57B92496C11E00253C90 /* LaunchScreen.storyboard */,
+				368281C324A90D4200C196D6 /* ObjC */,
+				368281A524A90CBE00C196D6 /* Swift */,
 			);
 			path = Example;
 			sourceTree = "<group>";
@@ -246,6 +319,25 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		368281C124A90D4100C196D6 /* Example ObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 368281D824A90D4200C196D6 /* Build configuration list for PBXNativeTarget "Example ObjC" */;
+			buildPhases = (
+				368281BE24A90D4100C196D6 /* Sources */,
+				368281BF24A90D4100C196D6 /* Frameworks */,
+				368281C024A90D4100C196D6 /* Resources */,
+				368281DF24A90D8300C196D6 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				368281DE24A90D8300C196D6 /* PBXTargetDependency */,
+			);
+			name = "Example ObjC";
+			productName = "Example ObjC";
+			productReference = 368281C224A90D4100C196D6 /* Example ObjC.app */;
+			productType = "com.apple.product-type.application";
+		};
 		369E579C2496C10900253C90 /* BIASystemKit */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 369E57A52496C10900253C90 /* Build configuration list for PBXNativeTarget "BIASystemKit" */;
@@ -264,9 +356,9 @@
 			productReference = 369E579D2496C10900253C90 /* BIASystemKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		369E57AB2496C11B00253C90 /* Example */ = {
+		369E57AB2496C11B00253C90 /* Example Swift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 369E57BD2496C11E00253C90 /* Build configuration list for PBXNativeTarget "Example" */;
+			buildConfigurationList = 369E57BD2496C11E00253C90 /* Build configuration list for PBXNativeTarget "Example Swift" */;
 			buildPhases = (
 				369E57A82496C11B00253C90 /* Sources */,
 				369E57A92496C11B00253C90 /* Frameworks */,
@@ -279,9 +371,9 @@
 			dependencies = (
 				36A2457524A6A58C00203EC8 /* PBXTargetDependency */,
 			);
-			name = Example;
+			name = "Example Swift";
 			productName = Example;
-			productReference = 369E57AC2496C11B00253C90 /* Example.app */;
+			productReference = 369E57AC2496C11B00253C90 /* Example Swift.app */;
 			productType = "com.apple.product-type.application";
 		};
 		36A02A5F2496CE2A00DBDEB6 /* BIASystemKitTests */ = {
@@ -312,6 +404,9 @@
 				LastUpgradeCheck = 1150;
 				ORGANIZATIONNAME = "Best-iOS-Apps";
 				TargetAttributes = {
+					368281C124A90D4100C196D6 = {
+						CreatedOnToolsVersion = 11.5;
+					};
 					369E579C2496C10900253C90 = {
 						CreatedOnToolsVersion = 11.5;
 						LastSwiftMigration = 1150;
@@ -337,7 +432,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				369E57AB2496C11B00253C90 /* Example */,
+				369E57AB2496C11B00253C90 /* Example Swift */,
+				368281C124A90D4100C196D6 /* Example ObjC */,
 				369E579C2496C10900253C90 /* BIASystemKit */,
 				36A02A5F2496CE2A00DBDEB6 /* BIASystemKitTests */,
 			);
@@ -345,6 +441,15 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		368281C024A90D4100C196D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				368281D424A90D4200C196D6 /* LaunchScreen.storyboard in Resources */,
+				368281D124A90D4200C196D6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		369E579B2496C10900253C90 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -370,6 +475,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3629E5FC24A6B4300096E54D /* device-map-ipad.json in Resources */,
+				3629E5FE24A6B4350096E54D /* device-map-ipod.json in Resources */,
+				3629E5FF24A6B4370096E54D /* device-map-iwatch.json in Resources */,
+				3629E5FD24A6B4330096E54D /* device-map-iphone.json in Resources */,
+				3629E60024A6B4390096E54D /* device-map-simulator.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,6 +506,17 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		368281BE24A90D4100C196D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				368281CC24A90D4200C196D6 /* ExampleViewController.m in Sources */,
+				368281E224A90E0000C196D6 /* ExampleViewModel.m in Sources */,
+				368281C624A90D4200C196D6 /* AppDelegate.m in Sources */,
+				368281D724A90D4200C196D6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		369E57992496C10900253C90 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -426,6 +547,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		368281DE24A90D8300C196D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 369E579C2496C10900253C90 /* BIASystemKit */;
+			targetProxy = 368281DD24A90D8300C196D6 /* PBXContainerItemProxy */;
+		};
 		36A02A672496CE2A00DBDEB6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			platformFilter = ios;
@@ -440,6 +566,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		368281D224A90D4200C196D6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				368281D324A90D4200C196D6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		369E57B92496C11E00253C90 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -451,6 +585,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		368281D924A90D4200C196D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MPTU3DH5MH;
+				INFOPLIST_FILE = BIASystemKit.xcodeproj/BIASystemKitExampleObjC_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.best-ios-apps.system-kit.example-objc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		368281DA24A90D4200C196D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MPTU3DH5MH;
+				INFOPLIST_FILE = BIASystemKit.xcodeproj/BIASystemKitExampleObjC_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.best-ios-apps.system-kit.example-objc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		369E57A32496C10900253C90 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -509,6 +683,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -565,6 +740,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -632,13 +808,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MPTU3DH5MH;
-				INFOPLIST_FILE = "$(SRCROOT)/Example/Info.plist";
+				INFOPLIST_FILE = BIASystemKit.xcodeproj/BIASystemKitExampleSwift_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "de.best-ios-apps.system-kit.Example";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.best-ios-apps.system-kit.example-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -651,13 +827,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MPTU3DH5MH;
-				INFOPLIST_FILE = "$(SRCROOT)/Example/Info.plist";
+				INFOPLIST_FILE = BIASystemKit.xcodeproj/BIASystemKitExampleSwift_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "de.best-ios-apps.system-kit.Example";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.best-ios-apps.system-kit.example-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -703,6 +879,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		368281D824A90D4200C196D6 /* Build configuration list for PBXNativeTarget "Example ObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				368281D924A90D4200C196D6 /* Debug */,
+				368281DA24A90D4200C196D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		369E57972496C10900253C90 /* Build configuration list for PBXProject "BIASystemKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -721,7 +906,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		369E57BD2496C11E00253C90 /* Build configuration list for PBXNativeTarget "Example" */ = {
+		369E57BD2496C11E00253C90 /* Build configuration list for PBXNativeTarget "Example Swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				369E57BE2496C11E00253C90 /* Debug */,

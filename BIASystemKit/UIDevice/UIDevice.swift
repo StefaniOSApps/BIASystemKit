@@ -5,8 +5,10 @@
 
 import UIKit
 
+
 public extension UIDevice {
 
+  @objc
   var formattedName: String {
     return DeviceHelper(modelName: modelName).formattedName
   }
