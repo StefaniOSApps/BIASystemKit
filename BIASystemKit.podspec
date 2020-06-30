@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'BIASystemKit'
-  s.version = '1.0'
+  s.version = '1.1'
   s.license = 'MIT'
   s.summary = 'iOS SystemKit Framework (best-ios-apps.de)'
   s.homepage = 'https://www.best-ios-apps.de'
@@ -12,4 +12,7 @@ Pod::Spec.new do |s|
   s.resources = 'BIASystemKit/UIDevice/Ressources/*.json'
   s.ios.resources = 'BIASystemKit/UIDevice/Ressources/*'
   s.ios.framework  = 'UIKit'
+  s.test_spec 'BIASystemKitTests' do |test_spec|
+    test_spec.source_files = 'Tests/**/*.{swift}'
+  end 
 end

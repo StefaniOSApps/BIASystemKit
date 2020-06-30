@@ -7,11 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3629E5FC24A6B4300096E54D /* device-map-ipad.json in Resources */ = {isa = PBXBuildFile; fileRef = 36FA0D9D2496EF6E007268F7 /* device-map-ipad.json */; };
-		3629E5FD24A6B4330096E54D /* device-map-iphone.json in Resources */ = {isa = PBXBuildFile; fileRef = 36FA0D9F2496EF6E007268F7 /* device-map-iphone.json */; };
-		3629E5FE24A6B4350096E54D /* device-map-ipod.json in Resources */ = {isa = PBXBuildFile; fileRef = 36FA0D9E2496EF6E007268F7 /* device-map-ipod.json */; };
-		3629E5FF24A6B4370096E54D /* device-map-iwatch.json in Resources */ = {isa = PBXBuildFile; fileRef = 36FA0DA02496EF6E007268F7 /* device-map-iwatch.json */; };
-		3629E60024A6B4390096E54D /* device-map-simulator.json in Resources */ = {isa = PBXBuildFile; fileRef = 36FA0DA12496EF6E007268F7 /* device-map-simulator.json */; };
+		3610DED724ABF11B00A0359D /* SystemHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3610DED624ABF11B00A0359D /* SystemHelper.swift */; };
 		3661A8AD2496C43E00E08AAA /* UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3661A8AC2496C43E00E08AAA /* UIDevice.swift */; };
 		368281C624A90D4200C196D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 368281C524A90D4200C196D6 /* AppDelegate.m */; };
 		368281CC24A90D4200C196D6 /* ExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 368281CB24A90D4200C196D6 /* ExampleViewController.m */; };
@@ -32,6 +28,9 @@
 		36A02A6C2496CF0800DBDEB6 /* DeviceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A02A6B2496CF0800DBDEB6 /* DeviceHelper.swift */; };
 		36A2457224A6A58C00203EC8 /* BIASystemKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 369E579D2496C10900253C90 /* BIASystemKit.framework */; };
 		36A2457324A6A58C00203EC8 /* BIASystemKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 369E579D2496C10900253C90 /* BIASystemKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		36A9848D24AAA47100286D4E /* SecureHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A9848C24AAA47100286D4E /* SecureHelper.swift */; };
+		36A9848F24AAA70A00286D4E /* ProcessorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A9848E24AAA70A00286D4E /* ProcessorHelper.swift */; };
+		36A9849224AAB38000286D4E /* SystemInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A9849124AAB38000286D4E /* SystemInfo.swift */; };
 		36FA0DA22496EF6E007268F7 /* device-map-ipad.json in Resources */ = {isa = PBXBuildFile; fileRef = 36FA0D9D2496EF6E007268F7 /* device-map-ipad.json */; };
 		36FA0DA32496EF6E007268F7 /* device-map-ipod.json in Resources */ = {isa = PBXBuildFile; fileRef = 36FA0D9E2496EF6E007268F7 /* device-map-ipod.json */; };
 		36FA0DA42496EF6E007268F7 /* device-map-iphone.json in Resources */ = {isa = PBXBuildFile; fileRef = 36FA0D9F2496EF6E007268F7 /* device-map-iphone.json */; };
@@ -90,6 +89,7 @@
 
 /* Begin PBXFileReference section */
 		3604F3012496E1D1005276A7 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = SOURCE_ROOT; };
+		3610DED624ABF11B00A0359D /* SystemHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemHelper.swift; sourceTree = "<group>"; };
 		362BE4972496E26B00C7CDDD /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = SOURCE_ROOT; };
 		3661A8AC2496C43E00E08AAA /* UIDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDevice.swift; sourceTree = "<group>"; };
 		368281C224A90D4100C196D6 /* Example ObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Example ObjC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,6 +116,9 @@
 		369E57C72496C34E00253C90 /* ExampleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleViewModel.swift; sourceTree = "<group>"; };
 		36A02A602496CE2A00DBDEB6 /* BIASystemKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BIASystemKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		36A02A6B2496CF0800DBDEB6 /* DeviceHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceHelper.swift; sourceTree = "<group>"; };
+		36A9848C24AAA47100286D4E /* SecureHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureHelper.swift; sourceTree = "<group>"; };
+		36A9848E24AAA70A00286D4E /* ProcessorHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessorHelper.swift; sourceTree = "<group>"; };
+		36A9849124AAB38000286D4E /* SystemInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemInfo.swift; sourceTree = "<group>"; };
 		36DF030E24A6A22A00C58759 /* Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		36DF031224A6A24400C58759 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		36FA0D9D2496EF6E007268F7 /* device-map-ipad.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "device-map-ipad.json"; sourceTree = "<group>"; };
@@ -175,8 +178,8 @@
 			isa = PBXGroup;
 			children = (
 				369E57AE2496C11B00253C90 /* AppDelegate.swift */,
-				369E57B22496C11B00253C90 /* ExampleViewController.swift */,
 				369E57C72496C34E00253C90 /* ExampleViewModel.swift */,
+				369E57B22496C11B00253C90 /* ExampleViewController.swift */,
 				369E57B72496C11E00253C90 /* Assets.xcassets */,
 				369E57B92496C11E00253C90 /* LaunchScreen.storyboard */,
 			);
@@ -186,6 +189,7 @@
 		368281C324A90D4200C196D6 /* ObjC */ = {
 			isa = PBXGroup;
 			children = (
+				368281D624A90D4200C196D6 /* main.m */,
 				368281C424A90D4200C196D6 /* AppDelegate.h */,
 				368281C524A90D4200C196D6 /* AppDelegate.m */,
 				368281E024A90E0000C196D6 /* ExampleViewModel.h */,
@@ -194,7 +198,6 @@
 				368281CB24A90D4200C196D6 /* ExampleViewController.m */,
 				368281D024A90D4200C196D6 /* Assets.xcassets */,
 				368281D224A90D4200C196D6 /* LaunchScreen.storyboard */,
-				368281D624A90D4200C196D6 /* main.m */,
 			);
 			path = ObjC;
 			sourceTree = "<group>";
@@ -269,8 +272,9 @@
 		36A02A502496CAF200DBDEB6 /* UIDevice */ = {
 			isa = PBXGroup;
 			children = (
-				36A02A6B2496CF0800DBDEB6 /* DeviceHelper.swift */,
+				36A9849124AAB38000286D4E /* SystemInfo.swift */,
 				3661A8AC2496C43E00E08AAA /* UIDevice.swift */,
+				36A9849024AAB25700286D4E /* Helper */,
 				36A02A552496CC3300DBDEB6 /* Ressources */,
 			);
 			path = UIDevice;
@@ -294,6 +298,17 @@
 				36DF030D24A6A22A00C58759 /* BIASystemKitTests */,
 			);
 			path = Tests;
+			sourceTree = "<group>";
+		};
+		36A9849024AAB25700286D4E /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				36A02A6B2496CF0800DBDEB6 /* DeviceHelper.swift */,
+				36A9848E24AAA70A00286D4E /* ProcessorHelper.swift */,
+				36A9848C24AAA47100286D4E /* SecureHelper.swift */,
+				3610DED624ABF11B00A0359D /* SystemHelper.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 		36DF030D24A6A22A00C58759 /* BIASystemKitTests */ = {
@@ -327,6 +342,7 @@
 				368281BF24A90D4100C196D6 /* Frameworks */,
 				368281C024A90D4100C196D6 /* Resources */,
 				368281DF24A90D8300C196D6 /* Embed Frameworks */,
+				3610F8F124A92CCF0037916A /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -475,17 +491,29 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3629E5FC24A6B4300096E54D /* device-map-ipad.json in Resources */,
-				3629E5FE24A6B4350096E54D /* device-map-ipod.json in Resources */,
-				3629E5FF24A6B4370096E54D /* device-map-iwatch.json in Resources */,
-				3629E5FD24A6B4330096E54D /* device-map-iphone.json in Resources */,
-				3629E60024A6B4390096E54D /* device-map-simulator.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		3610F8F124A92CCF0037916A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint autocorrect --format\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
 		36992DBD2496E436002CFC19 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -521,7 +549,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36A9848F24AAA70A00286D4E /* ProcessorHelper.swift in Sources */,
 				3661A8AD2496C43E00E08AAA /* UIDevice.swift in Sources */,
+				3610DED724ABF11B00A0359D /* SystemHelper.swift in Sources */,
+				36A9848D24AAA47100286D4E /* SecureHelper.swift in Sources */,
+				36A9849224AAB38000286D4E /* SystemInfo.swift in Sources */,
 				36A02A6C2496CF0800DBDEB6 /* DeviceHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -598,7 +630,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "de.best-ios-apps.system-kit.example-objc";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -618,7 +650,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "de.best-ios-apps.system-kit.example-objc";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -764,7 +796,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.1.1;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "de.best-ios-apps.system-kit";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -792,7 +824,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.1.1;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "de.best-ios-apps.system-kit";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -813,7 +845,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "de.best-ios-apps.system-kit.example-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -832,7 +864,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "de.best-ios-apps.system-kit.example-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

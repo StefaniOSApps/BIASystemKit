@@ -5,15 +5,18 @@
 
 import UIKit
 
-
 public extension UIDevice {
 
-  @objc
-  var formattedName: String {
-    return DeviceHelper(modelName: modelName).formattedName
+  /// System information of the framework BIASystemKit
+  @objc var info: BIASystemInfo {
+    return BIASystemInfo(device: self)
   }
+}
 
-  private var modelName: String {
+// MARK: Private
+extension UIDevice {
+
+  var modelName: String {
     var systemInfo = utsname()
     uname(&systemInfo)
     let machineMirror = Mirror(reflecting: systemInfo.machine)
