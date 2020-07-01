@@ -86,27 +86,27 @@ print(UIDevice.current.info.processor.activeCount)
 
 ##### Objective-C
 ```objective-c
-NSLog(@"%@", [UIDevice currentDevice].info.system.name)
+NSLog(@"%@", UIDevice.currentDevice.info.system.name)
 // NSString: x86_64
 
-NSLog(@"%@", [UIDevice currentDevice].info.system.formatted.name)
+NSLog(@"%@", UIDevice.currentDevice.info.system.formatted.name)
 // NSString?: iPhone 11 Pro Max
 
-NSLog(@"%@", [[UIDevice currentDevice].info.system.formatted upTimeWithUnitsStyle:NSDateComponentsFormatterUnitsStyleShort])
+NSLog(@"%@", [UIDevice.currentDevice.info.system.formatted upTimeWithUnitsStyle:NSDateComponentsFormatterUnitsStyleShort])
 // NSString?: 2 days, 18 hr, 14 min, 3 sec
 
-NSLog(@"%@", [UIDevice currentDevice].info.system.upTime)
+NSLog(@"%@", UIDevice.currentDevice.info.system.upTime)
 // NSTimeInterval: 238443.2
 
-NSLog(@"%@", [UIDevice currentDevice].info.secure.isJailBroken)
+NSLog(@"%@", UIDevice.currentDevice.info.secure.isJailBroken)
 // BOOL: NO
 
-NSLog(@"%@", [UIDevice currentDevice].info.system.version)
+NSLog(@"%@", UIDevice.currentDevice.info.system.version)
 // NSString: 13.0.1
 
-NSLog(@"%@", [UIDevice currentDevice].info.processor.count)
+NSLog(@"%@", UIDevice.currentDevice.info.processor.count)
 // NSInteger: 6
 
-NSLog(@"%@", [UIDevice currentDevice].info.processor.activeCount)
+NSLog(@"%@", UIDevice.currentDevice.info.processor.activeCount)
 // NSInteger: 4
 ```
