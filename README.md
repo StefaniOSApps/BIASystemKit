@@ -57,13 +57,56 @@ $ pod install
 ```
 
 ## Example
-
+##### Swift
 ```swift
-print(UIDevice.current.formattedName)
-// iPhone 11 Pro Max
+print(UIDevice.current.info.system.name)
+// String: x86_64
+
+print(UIDevice.current.info.system.formatted.name)
+// String?: iPhone 11 Pro Max
+
+print(UIDevice.current.info.system.formatted.upTime(unitsStyle: .short))
+// String?: 2 days, 18 hr, 14 min, 3 sec
+
+print(UIDevice.current.info.system.upTime)
+// TimeInterval: 238443.2
+
+print(UIDevice.current.info.secure.isJailBroken)
+// Bool: false
+
+print(UIDevice.current.info.system.version)
+// String: 13.0.1
+
+print(UIDevice.current.info.processor.count)
+// Int: 6
+
+print(UIDevice.current.info.processor.activeCount)
+// Int: 4
 ```
 
+##### Objective-C
 ```objective-c
-NSLog(@"%@", [UIDevice currentDevice].formattedName)
-// iPad PRO 11" (Wifi)
+NSLog(@"%@", [UIDevice currentDevice].info.system.name)
+// NSString: x86_64
+
+NSLog(@"%@", [UIDevice currentDevice].info.system.formatted.name)
+// NSString?: iPhone 11 Pro Max
+
+NSLog(@"%@", [[UIDevice currentDevice].info.system.formatted upTimeWithUnitsStyle:NSDateComponentsFormatterUnitsStyleShort])
+// NSString?: 2 days, 18 hr, 14 min, 3 sec
+
+NSLog(@"%@", [UIDevice currentDevice].info.system.upTime)
+// NSTimeInterval: 238443.2
+
+NSLog(@"%@", [UIDevice currentDevice].info.secure.isJailBroken)
+// BOOL: NO
+
+NSLog(@"%@", [UIDevice currentDevice].info.system.version)
+// NSString: 13.0.1
+
+NSLog(@"%@", [UIDevice currentDevice].info.processor.count)
+// NSInteger: 6
+
+NSLog(@"%@", [UIDevice currentDevice].info.processor.activeCount)
+// NSInteger: 4
 ```
