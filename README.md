@@ -71,11 +71,11 @@ print(UIDevice.current.info.system.formatted.upTime(unitsStyle: .short))
 print(UIDevice.current.info.system.upTime)
 // TimeInterval: 238443.2
 
-print(UIDevice.current.info.secure.isJailBroken)
-// Bool: false
-
 print(UIDevice.current.info.system.version)
 // String: 13.0.1
+
+print(UIDevice.current.info.secure.isJailBroken)
+// Bool: false
 
 print(UIDevice.current.info.processor.count)
 // Int: 6
@@ -98,11 +98,11 @@ NSLog(@"%@", [UIDevice.currentDevice.info.system.formatted upTimeWithUnitsStyle:
 NSLog(@"%@", UIDevice.currentDevice.info.system.upTime)
 // NSTimeInterval: 238443.2
 
-NSLog(@"%@", UIDevice.currentDevice.info.secure.isJailBroken)
-// BOOL: NO
-
 NSLog(@"%@", UIDevice.currentDevice.info.system.version)
 // NSString: 13.0.1
+
+NSLog(@"%@", UIDevice.currentDevice.info.secure.isJailBroken)
+// BOOL: NO
 
 NSLog(@"%@", UIDevice.currentDevice.info.processor.count)
 // NSInteger: 6
