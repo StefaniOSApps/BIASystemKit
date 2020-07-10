@@ -12,20 +12,22 @@
 - (nonnull instancetype)init {
   self = [super init];
   if (self) {
-    NSMutableArray *info = [[NSMutableArray alloc] init];
-    [info addObject:[[NSString alloc] initWithFormat:@"You are using a '%@' (%@)",
-                     [UIDevice currentDevice].info.system.formatted.name,
-                     [UIDevice currentDevice].info.system.name]];
-    [info addObject:[[NSString alloc] initWithFormat:@"Your device %@ jailbroken.",
-                     [[UIDevice currentDevice].info.secure isJailBroken] ? @"is" : @"is not"]];
-    [info addObject:[[NSString alloc] initWithFormat:@"Your device has %ld activ of %ld processors.",
-                     [[UIDevice currentDevice].info.processor activeCount],
-                     [[UIDevice currentDevice].info.processor count]]];
-    [info addObject:[[NSString alloc] initWithFormat:@"Your system is running since %.1f s (%@).",
-                     [[UIDevice currentDevice].info.system upTime],
-                     [[UIDevice currentDevice].info.system.formatted upTimeWithUnitsStyle:NSDateComponentsFormatterUnitsStyleShort]]];
 
-    self.deviceInfos = info;
+    BIASystemInfo *info = UIDevice.currentDevice.info;
+
+    NSMutableArray *arr = [[NSMutableArray alloc] init];
+    [arr addObject:[[NSString alloc] initWithFormat:@"You are using a '%@' (%@)",
+                     info.system.formatted.name,
+                     info.system.name]];
+    [arr addObject:[[NSString alloc] initWithFormat:@"Your device %@ jailbroken.",
+                     info.secure.isJailBroken ? @"is" : @"is not"]];
+    [arr addObject:[[NSString alloc] initWithFormat:@"Your device has %ld activ of %ld processors.",
+                     info.processor.activeCount,
+                     info.processor.count]];
+    [arr addObject:[[NSString alloc] initWithFormat:@"Your system is running since %.1f s (%@).",
+                     info.system.upTime,
+                     [info.system.formatted upTimeWithUnitsStyle:NSDateComponentsFormatterUnitsStyleShort]]];
+    self.deviceInfos = arr;
   }
   return self;
 }

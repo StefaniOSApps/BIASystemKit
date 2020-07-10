@@ -1,0 +1,18 @@
+update_fastlane
+default_platform(:ios)
+
+platform :ios do
+  desc "Run Tests"
+  lane :laneTests do
+    run_tests(
+      scheme: "Example ObjC",
+      devices: ['iPhone 8 Plus'],
+      clean: true
+    )
+    run_tests(
+      scheme: "Example Swift",
+      devices: ['iPhone 8 Plus'],
+      clean: true
+    )
+  end
+end

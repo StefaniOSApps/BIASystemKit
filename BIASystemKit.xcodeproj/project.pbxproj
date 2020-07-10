@@ -121,6 +121,7 @@
 		36A9849124AAB38000286D4E /* SystemInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemInfo.swift; sourceTree = "<group>"; };
 		36DF030E24A6A22A00C58759 /* Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		36DF031224A6A24400C58759 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		36E2083424B9278D0046F7E3 /* Fastfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Fastfile; path = fastlane/Fastfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		36FA0D9D2496EF6E007268F7 /* device-map-ipad.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "device-map-ipad.json"; sourceTree = "<group>"; };
 		36FA0D9E2496EF6E007268F7 /* device-map-ipod.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "device-map-ipod.json"; sourceTree = "<group>"; };
 		36FA0D9F2496EF6E007268F7 /* device-map-iphone.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "device-map-iphone.json"; sourceTree = "<group>"; };
@@ -166,6 +167,7 @@
 		3604F3002496E1C1005276A7 /* Maintenance */ = {
 			isa = PBXGroup;
 			children = (
+				36E2083424B9278D0046F7E3 /* Fastfile */,
 				3604F3012496E1D1005276A7 /* .gitignore */,
 				36992DBA2496E29B002CFC19 /* BIASystemKit.podspec */,
 				36992DBB2496E304002CFC19 /* LICENCE */,
