@@ -6,22 +6,21 @@
 import Foundation
 import UIKit
 
-@objcMembers
-public class BIASystemInfo: NSObject {
+public enum BIAInfo {
 
-  private let device: UIDevice
+  public static func device(for device: UIDevice) -> DeviceHelper {
+    return DeviceHelper(for: device)
+  }
 
   /// Information about the processor - like processor count
-  public var processor = ProcessorHelper()
+  public static var processor = ProcessorHelper.self
 
   /// Information about the safety of the device - like isJailBroken
-  public var secure = SecureHelper()
+  public static var secure = SecureHelper.self
 
   /// Information about the system - like upTime
-  public var system: SystemHelper
-
-  internal init(device: UIDevice) {
-    self.device = device
-    self.system = SystemHelper(device: device)
-  }
+  public static var system = SystemHelper.self
+  
 }
+
+

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1150"
+   LastUpgradeVersion = "9999"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "369E579C2496C10900253C90"
+               BlueprintIdentifier = "BIASystemKit::BIASystemKit"
                BuildableName = "BIASystemKit.framework"
                BlueprintName = "BIASystemKit"
                ReferencedContainer = "container:BIASystemKit.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "36A02A5F2496CE2A00DBDEB6"
+               BlueprintIdentifier = "BIASystemKit::BIASystemKitTests"
                BuildableName = "BIASystemKitTests.xctest"
                BlueprintName = "BIASystemKitTests"
                ReferencedContainer = "container:BIASystemKit.xcodeproj">
@@ -57,15 +57,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "369E579C2496C10900253C90"
-            BuildableName = "BIASystemKit.framework"
-            BlueprintName = "BIASystemKit"
-            ReferencedContainer = "container:BIASystemKit.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

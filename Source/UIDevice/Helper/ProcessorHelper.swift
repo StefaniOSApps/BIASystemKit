@@ -5,16 +5,13 @@
 
 import Foundation
 
-@objcMembers
-public class ProcessorHelper: NSObject {
+public enum ProcessorHelper {
 
   /// The number of processing cores available on the computer.
-  public let count: Int = {
-    return ProcessInfo.processInfo.processorCount
-  }()
+  public static let count = ProcessInfo.processInfo.processorCount
 
   /// The number of active processing cores available on the computer.
-  public var activeCount: Int {
+  public static var activeCount: Int {
     return ProcessInfo.processInfo.activeProcessorCount
   }
 }

@@ -1,6 +1,5 @@
 # Project
-*/xcuserdata
-*/xcuserdata
+*xcuserdata/
 
 # Ignore Finder artifacts on OSX
 .DS_Store
