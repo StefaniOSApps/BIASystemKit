@@ -89,6 +89,7 @@
 
 /* Begin PBXFileReference section */
 		3604F3012496E1D1005276A7 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = SOURCE_ROOT; };
+		360BAB9224BB6D7500ECE2B4 /* IDETemplateMacros.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = IDETemplateMacros.plist; path = BIASystemKit.xcodeproj/xcshareddata/IDETemplateMacros.plist; sourceTree = SOURCE_ROOT; };
 		3610DED624ABF11B00A0359D /* SystemHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemHelper.swift; sourceTree = "<group>"; };
 		362BE4972496E26B00C7CDDD /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = SOURCE_ROOT; };
 		3661A8AC2496C43E00E08AAA /* UIDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDevice.swift; sourceTree = "<group>"; };
@@ -167,6 +168,7 @@
 		3604F3002496E1C1005276A7 /* Maintenance */ = {
 			isa = PBXGroup;
 			children = (
+				360BAB9224BB6D7500ECE2B4 /* IDETemplateMacros.plist */,
 				36E2083424B9278D0046F7E3 /* Fastfile */,
 				3604F3012496E1D1005276A7 /* .gitignore */,
 				36992DBA2496E29B002CFC19 /* BIASystemKit.podspec */,
