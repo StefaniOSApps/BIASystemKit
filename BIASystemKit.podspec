@@ -9,8 +9,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
   s.source_files = 'Source/**/*.{h,m,swift,xcdatamodeld,json}'
   s.swift_version = '5.3'
-  s.resources = 'Source/UIDevice/Ressources/*.json'
-  s.ios.resources = 'Source/UIDevice/Ressources/*'
+  s.resources = ['Source/UIDevice/Ressources/*.json']
   s.ios.framework  = 'UIKit'
   s.test_spec 'BIASystemKitTests' do |test_spec|
     test_spec.source_files = 'Tests/**/*.{swift}'
