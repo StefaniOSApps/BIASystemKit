@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
     :branch => 'swift-5.3-beta' }
   s.source_files = 'Source/**/*'
   s.swift_version = '5.3'
-  s.resources = ['Source/UIDevice/Ressources/*.json']
+  s.resources = ['Source/Ressources/*.json']
   s.ios.deployment_target = '9.0'
   s.ios.framework  = 'UIKit'
   s.test_spec 'BIASystemKitTests' do |test_spec|

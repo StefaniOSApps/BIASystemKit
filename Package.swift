@@ -21,7 +21,7 @@ let package = Package(
       dependencies: [],
       path: "Source",
       resources: [
-        .process("UIDevice/Ressources")
+        .process("Ressources")
       ]
     ),
     .testTarget(
