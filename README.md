@@ -26,7 +26,8 @@
 
 | Language  | Branch                                                           | Pod version | Xcode version         | iOS version |
 | --------- | ---------------------------------------------------------------- | ----------- | --------------------- | ----------- |
-| Swift 5.0 | [master](https://github.com/StefaniOSApps/BIASystemKit/tree/master) | >= 1.3.x    | Xcode 11.0+           | iOS 11.0+    |
+| Swift 5.0 | [master](https://github.com/StefaniOSApps/BIASystemKit/tree/master) | >= 1.0.x    | Xcode 11.0+           | iOS 11.0+    |
+| Swift 5.3 | [swift-5.3-beta](https://github.com/StefaniOSApps/BIASystemKit/tree/swift-5.3-beta) | >= 2.0.x    | Xcode 12.0+           | iOS 9.0+    |
 
 
 
