@@ -23,6 +23,6 @@ class Tests: XCTestCase {
       "Apple Watch Series 3 42mm case (GPS)",
       "64-bit Simulator"
     ]
-    XCTAssertEqual(deviceModels.map({ DeviceHelper(modelName: $0).formattedName }), deviceNames)
+    XCTAssertEqual(deviceModels.map({ Device.formattedName(modelName: $0) }), deviceNames)
   }
 }

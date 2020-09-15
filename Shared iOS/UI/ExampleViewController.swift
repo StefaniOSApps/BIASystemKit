@@ -4,11 +4,10 @@
 //
 
 import UIKit
-import BIASystemKit
 
 class ExampleViewController: UIViewController {
 
-  let viewModel: ViewModel
+  private let viewModel: ViewModel
 
   init(viewModel: ViewModel) {
     self.viewModel = viewModel
