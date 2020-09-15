@@ -5,13 +5,16 @@ Pod::Spec.new do |s|
   s.summary = 'iOS SystemKit Framework (best-ios-apps.de)'
   s.homepage = 'https://www.best-ios-apps.de'
   s.authors = { 'Stefan Nebel' => 'support@best-ios-apps.de' }
-  s.source = { :git => 'https://github.com/StefaniOSApps/BIASystemKit.git', :tag => s.version.to_s }
-  s.ios.deployment_target = '9.0'
-  s.source_files = 'Source/**/*.{h,m,swift,xcdatamodeld,json}'
+  s.source = { 
+:git => 'https://github.com/StefaniOSApps/BIASystemKit.git', 
+:branch => 'swift-5.3-beta',
+:tag => s.version.to_s }
+  s.source_files = 'Source/**/*'
   s.swift_version = '5.3'
   s.resources = ['Source/UIDevice/Ressources/*.json']
+  s.ios.deployment_target = '9.0'
   s.ios.framework  = 'UIKit'
   s.test_spec 'BIASystemKitTests' do |test_spec|
-    test_spec.source_files = 'Tests/**/*.{swift}'
+    test_spec.source_files = 'Source/**/*.{swift}'
   end 
 end
