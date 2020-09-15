@@ -7,14 +7,19 @@ import UIKit
 
 public final class DeviceHelper {
 
-  /// The current version of the operating system.
+  /// Current version of the operating system.
   public let version: String
 
-  /// A system name of your device like 'x86_64'.
+  /// System name like 'x86_64'.
   public let modelName: String
 
-  /// A optional formatted Name of your device like 'iPhone XS Max'.
+  /// Optional formatted name like 'iPhone XS Max'.
   public let formattedName: String?
+
+  /// Formatted name like 'iPhone XS Max' whene aviable else system name like 'x86_64'.
+  public var formattedNameIfPossible: String {
+    return formattedName ?? modelName
+  }
 
   init(for device: UIDevice) {
     self.modelName = device.modelName
