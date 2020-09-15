@@ -6,9 +6,8 @@ Pod::Spec.new do |s|
   s.homepage = 'https://www.best-ios-apps.de'
   s.authors = { 'Stefan Nebel' => 'support@best-ios-apps.de' }
   s.source = { 
-:git => 'https://github.com/StefaniOSApps/BIASystemKit.git', 
-:branch => 'swift-5.3-beta',
-:tag => s.version.to_s }
+    :git => 'https://github.com/StefaniOSApps/BIASystemKit.git', 
+    :branch => 'swift-5.3-beta' }
   s.source_files = 'Source/**/*'
   s.swift_version = '5.3'
   s.resources = ['Source/UIDevice/Ressources/*.json']
