@@ -1,5 +1,6 @@
 # Project
 *xcuserdata/
+*/Pods/
 
 # Ignore Finder artifacts on OSX
 .DS_Store

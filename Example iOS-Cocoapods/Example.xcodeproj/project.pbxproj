@@ -11,7 +11,7 @@
 		36A9E415251080C600B5B7DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A9E412251080C600B5B7DB /* AppDelegate.swift */; };
 		36A9E416251080C600B5B7DB /* ExampleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A9E413251080C600B5B7DB /* ExampleViewModel.swift */; };
 		36A9E419251080DD00B5B7DB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36A9E418251080DD00B5B7DB /* Images.xcassets */; };
-		36A9E41C251080FC00B5B7DB /* BIASystemKit in Frameworks */ = {isa = PBXBuildFile; productRef = 36A9E41B251080FC00B5B7DB /* BIASystemKit */; };
+		36A9E41C251080FC00B5B7DB /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 36A9E41B251080FC00B5B7DB /* SwiftPackageProductDependency */; };
 		BDCAA00073DD62E888E027EF /* Pods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10EFB4D610773E0CAD78576D /* Pods_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,7 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36A9E41C251080FC00B5B7DB /* BIASystemKit in Frameworks */,
+				36A9E41C251080FC00B5B7DB /* BuildFile in Frameworks */,
 				BDCAA00073DD62E888E027EF /* Pods_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -116,6 +116,7 @@
 				36EDD54C25107A83006301E5 /* Sources */,
 				36EDD54D25107A83006301E5 /* Frameworks */,
 				36EDD54E25107A83006301E5 /* Resources */,
+				A82E98B6253C17EB4A038C79 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,7 +124,7 @@
 			);
 			name = Example;
 			packageProductDependencies = (
-				36A9E41B251080FC00B5B7DB /* BIASystemKit */,
+				36A9E41B251080FC00B5B7DB /* SwiftPackageProductDependency */,
 			);
 			productName = Example;
 			productReference = 36EDD55025107A83006301E5 /* Example.app */;
@@ -174,6 +175,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		A82E98B6253C17EB4A038C79 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Example/Pods-Example-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Example/Pods-Example-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Example/Pods-Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		E68BD75453B2304D0244384C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -397,7 +415,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		36A9E41B251080FC00B5B7DB /* BIASystemKit */ = {
+		36A9E41B251080FC00B5B7DB /* SwiftPackageProductDependency */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = BIASystemKit;
 		};
