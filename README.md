@@ -26,7 +26,8 @@
 
 | Language  | Branch                                                           | Pod version | Xcode version         | iOS version |
 | --------- | ---------------------------------------------------------------- | ----------- | --------------------- | ----------- |
-| Swift 5.0 | [master](https://github.com/StefaniOSApps/BIASystemKit/tree/master) | >= 1.3.x    | Xcode 11.0+           | iOS 11.0+    |
+| Swift 5.0 | [master](https://github.com/StefaniOSApps/BIASystemKit/tree/master) | >= 1.0.x    | Xcode 11.0+           | iOS 11.0+    |
+| Swift 5.3 | [swift-5.3-beta](https://github.com/StefaniOSApps/BIASystemKit/tree/swift-5.3-beta) | >= 2.0.x    | Xcode 12.0+           | iOS 9.0+    |
 
 
 
@@ -42,7 +43,7 @@ To integrate BIASystemKit into your Xcode project using CocoaPods, specify it in
 
 ```ruby
 source 'https://github.com/CocoaPods/Specs.git'
-platform :ios, '11.0'
+platform :ios, '9.0'
 use_frameworks!
 
 target '<Your Target Name>' do
@@ -57,56 +58,28 @@ $ pod install
 ```
 
 ## Example
-##### Swift
 ```swift
-print(UIDevice.current.info.system.name)
+print(BIAInfo.device(for: .current).modelName)
 // String: x86_64
 
-print(UIDevice.current.info.system.formatted.name)
+print(BIAInfo.device(for: .current).formattedName)
 // String?: iPhone 11 Pro Max
 
-print(UIDevice.current.info.system.formatted.upTime(unitsStyle: .short))
-// String?: 2 days, 18 hr, 14 min, 3 sec
-
-print(UIDevice.current.info.system.upTime)
-// TimeInterval: 238443.2
-
-print(UIDevice.current.info.system.version)
+print(BIAInfo.device(for: .current).version)
 // String: 13.0.1
 
-print(UIDevice.current.info.secure.isJailBroken)
+print(BIAInfo.system.upTime(unitsStyle: .short))
+// String?: 2 days, 18 hr, 14 min, 3 sec
+
+print(BIAInfo.system.upTime)
+// TimeInterval: 238443.2
+
+print(BIAInfo.secure.isJailBroken)
 // Bool: false
 
-print(UIDevice.current.info.processor.count)
+print(BIAInfo.processor.count)
 // Int: 6
 
-print(UIDevice.current.info.processor.activeCount)
+print(BIAInfo.processor.activeCount)
 // Int: 4
-```
-
-##### Objective-C
-```objective-c
-NSLog(@"%@", UIDevice.currentDevice.info.system.name)
-// NSString: x86_64
-
-NSLog(@"%@", UIDevice.currentDevice.info.system.formatted.name)
-// NSString?: iPhone 11 Pro Max
-
-NSLog(@"%@", [UIDevice.currentDevice.info.system.formatted upTimeWithUnitsStyle:NSDateComponentsFormatterUnitsStyleShort])
-// NSString?: 2 days, 18 hr, 14 min, 3 sec
-
-NSLog(@"%@", UIDevice.currentDevice.info.system.upTime)
-// NSTimeInterval: 238443.2
-
-NSLog(@"%@", UIDevice.currentDevice.info.system.version)
-// NSString: 13.0.1
-
-NSLog(@"%@", UIDevice.currentDevice.info.secure.isJailBroken)
-// BOOL: NO
-
-NSLog(@"%@", UIDevice.currentDevice.info.processor.count)
-// NSInteger: 6
-
-NSLog(@"%@", UIDevice.currentDevice.info.processor.activeCount)
-// NSInteger: 4
 ```
