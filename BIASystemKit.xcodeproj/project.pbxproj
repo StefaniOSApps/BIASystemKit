@@ -21,6 +21,11 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		3682E6CA2512899A0048FD75 /* device-map-ipod.json in Resources */ = {isa = PBXBuildFile; fileRef = 3682E6C52512899A0048FD75 /* device-map-ipod.json */; };
+		3682E6CB2512899A0048FD75 /* device-map-simulator.json in Resources */ = {isa = PBXBuildFile; fileRef = 3682E6C62512899A0048FD75 /* device-map-simulator.json */; };
+		3682E6CC2512899A0048FD75 /* device-map-iphone.json in Resources */ = {isa = PBXBuildFile; fileRef = 3682E6C72512899A0048FD75 /* device-map-iphone.json */; };
+		3682E6CD2512899A0048FD75 /* device-map-iwatch.json in Resources */ = {isa = PBXBuildFile; fileRef = 3682E6C82512899A0048FD75 /* device-map-iwatch.json */; };
+		3682E6CE2512899A0048FD75 /* device-map-ipad.json in Resources */ = {isa = PBXBuildFile; fileRef = 3682E6C92512899A0048FD75 /* device-map-ipad.json */; };
 		OBJ_42 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* Device.swift */; };
 		OBJ_43 /* DeviceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* DeviceHelper.swift */; };
 		OBJ_44 /* ProcessorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* ProcessorHelper.swift */; };
@@ -33,14 +38,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3606EC5E2512670A0017B1E3 /* PBXContainerItemProxy */ = {
+		3682E6C12512894F0048FD75 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "BIASystemKit::BIASystemKit";
 			remoteInfo = BIASystemKit;
 		};
-		3606EC61251269B80017B1E3 /* PBXContainerItemProxy */ = {
+		3682E6C2251289510048FD75 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
@@ -50,6 +55,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3682E6C52512899A0048FD75 /* device-map-ipod.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "device-map-ipod.json"; sourceTree = "<group>"; };
+		3682E6C62512899A0048FD75 /* device-map-simulator.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "device-map-simulator.json"; sourceTree = "<group>"; };
+		3682E6C72512899A0048FD75 /* device-map-iphone.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "device-map-iphone.json"; sourceTree = "<group>"; };
+		3682E6C82512899A0048FD75 /* device-map-iwatch.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "device-map-iwatch.json"; sourceTree = "<group>"; };
+		3682E6C92512899A0048FD75 /* device-map-ipad.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "device-map-ipad.json"; sourceTree = "<group>"; };
 		"BIASystemKit::BIASystemKit::Product" /* BIASystemKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BIASystemKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"BIASystemKit::BIASystemKitTests::Product" /* BIASystemKitTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = BIASystemKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_10 /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
@@ -93,6 +103,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3682E6C42512899A0048FD75 /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				3682E6C52512899A0048FD75 /* device-map-ipod.json */,
+				3682E6C62512899A0048FD75 /* device-map-simulator.json */,
+				3682E6C72512899A0048FD75 /* device-map-iphone.json */,
+				3682E6C82512899A0048FD75 /* device-map-iwatch.json */,
+				3682E6C92512899A0048FD75 /* device-map-ipad.json */,
+			);
+			path = Ressources;
+			sourceTree = "<group>";
+		};
 		OBJ_12 /* Processor */ = {
 			isa = PBXGroup;
 			children = (
@@ -169,6 +191,7 @@
 		OBJ_7 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				3682E6C42512899A0048FD75 /* Ressources */,
 				OBJ_8 /* Helper */,
 				OBJ_18 /* SystemInfo.swift */,
 			);
@@ -205,6 +228,7 @@
 			buildPhases = (
 				OBJ_41 /* Sources */,
 				OBJ_48 /* Frameworks */,
+				3682E6C32512895D0048FD75 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -275,6 +299,21 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		3682E6C32512895D0048FD75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3682E6CA2512899A0048FD75 /* device-map-ipod.json in Resources */,
+				3682E6CE2512899A0048FD75 /* device-map-ipad.json in Resources */,
+				3682E6CB2512899A0048FD75 /* device-map-simulator.json in Resources */,
+				3682E6CD2512899A0048FD75 /* device-map-iwatch.json in Resources */,
+				3682E6CC2512899A0048FD75 /* device-map-iphone.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		OBJ_41 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -311,12 +350,12 @@
 		OBJ_59 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "BIASystemKit::BIASystemKitTests" /* BIASystemKitTests */;
-			targetProxy = 3606EC61251269B80017B1E3 /* PBXContainerItemProxy */;
+			targetProxy = 3682E6C2251289510048FD75 /* PBXContainerItemProxy */;
 		};
 		OBJ_68 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "BIASystemKit::BIASystemKit" /* BIASystemKit */;
-			targetProxy = 3606EC5E2512670A0017B1E3 /* PBXContainerItemProxy */;
+			targetProxy = 3682E6C12512894F0048FD75 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

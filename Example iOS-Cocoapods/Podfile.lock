@@ -11,11 +11,11 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   BIASystemKit:
-    :commit: 7d96b707fde82c0bec03cc4127ec8a8260d817b2
+    :commit: 5d9ff26ed9f01a8a9360bcbb640dcc35d6eb3bcb
     :git: https://github.com/StefaniOSApps/BIASystemKit.git
 
 SPEC CHECKSUMS:
-  BIASystemKit: 3c368ed0b9959fb28af5002ec13adb522d01c7bd
+  BIASystemKit: 1172b23777ac1970f9f94fd9c8d752b569c4ab32
 
 PODFILE CHECKSUM: ce45a6eb69abd4aac41362a3112dcec7c799c9b4
 
