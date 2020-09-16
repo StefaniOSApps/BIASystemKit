@@ -5,7 +5,7 @@ platform :ios do
   desc "Run Tests"
   lane :laneTests do
     run_tests(
-      scheme: "Example Swift",
+      scheme: "BIASystemKit-Package",
       devices: ['iPhone 8 Plus'],
       clean: true
     )

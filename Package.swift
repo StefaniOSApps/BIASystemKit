@@ -26,6 +26,9 @@ let package = Package(
     ),
     .testTarget(
       name: "BIASystemKitTests",
+      resources: [
+        .process("Ressources")
+      ]
       dependencies: [
         "BIASystemKit"
       ]
