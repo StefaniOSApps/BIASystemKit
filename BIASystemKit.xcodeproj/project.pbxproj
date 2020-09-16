@@ -180,8 +180,8 @@
       "OBJ_22" = {
          isa = "PBXGroup";
          children = (
-            "BIASystemKit::BIASystemKit::Product",
-            "BIASystemKit::BIASystemKitTests::Product"
+            "BIASystemKit::BIASystemKitTests::Product",
+            "BIASystemKit::BIASystemKit::Product"
          );
          name = "Products";
          path = "";
