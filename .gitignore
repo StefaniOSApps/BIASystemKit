@@ -1,6 +1,7 @@
 # Project
 *xcuserdata/
 */Pods/
+Example iOS-Cocoapods/Example.xcworkspace
 
 # Ignore Finder artifacts on OSX
 .DS_Store
