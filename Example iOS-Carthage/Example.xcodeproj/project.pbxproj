@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		361ABDD125123F1F009B2071 /* BIASystemKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 361ABDCF25123A5B009B2071 /* BIASystemKit.framework */; };
+		3605429F2512423D0046107C /* BIASystemKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 361ABDCF25123A5B009B2071 /* BIASystemKit.framework */; };
 		36A9E414251080C600B5B7DB /* ExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A9E411251080C600B5B7DB /* ExampleViewController.swift */; };
 		36A9E415251080C600B5B7DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A9E412251080C600B5B7DB /* AppDelegate.swift */; };
 		36A9E416251080C600B5B7DB /* ExampleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A9E413251080C600B5B7DB /* ExampleViewModel.swift */; };
@@ -29,7 +29,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				361ABDD125123F1F009B2071 /* BIASystemKit.framework in Frameworks */,
+				3605429F2512423D0046107C /* BIASystemKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +101,7 @@
 				36EDD54C25107A83006301E5 /* Sources */,
 				36EDD54D25107A83006301E5 /* Frameworks */,
 				36EDD54E25107A83006301E5 /* Resources */,
+				3605429E251241CB0046107C /* Carthage */,
 			);
 			buildRules = (
 			);
@@ -156,6 +157,29 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3605429E251241CB0046107C /* Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/BIASystemKit.framework",
+			);
+			name = Carthage;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/BIASystemKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		36EDD54C25107A83006301E5 /* Sources */ = {
@@ -222,7 +246,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -277,7 +301,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -309,7 +333,7 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -334,7 +358,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
