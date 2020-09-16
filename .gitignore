@@ -1,7 +1,10 @@
 # Project
 *xcuserdata/
 */Pods/
+*/Carthage/
 Example iOS-Cocoapods/Example.xcworkspace
+*/Cartfile.resolved
+
 
 # Ignore Finder artifacts on OSX
 .DS_Store
