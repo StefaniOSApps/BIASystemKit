@@ -41,18 +41,24 @@ enum Device {
 
 fileprivate extension Bundle {
   static var resources: Bundle {
-    let path = Bundle(for: DeviceHelper.self).bundlePath
+    let bundleClass = Bundle(for: DeviceHelper.self)
+    let paths = Bundle.allBundles.map({ $0.bundlePath })
+    let bundlePath = paths.first(where: { $0.contains("BIASystemKit_BIASystemKit.bundle") || $0.contains("BIASystemKitTests.xctest") })
+
+    if let path = bundlePath, let bundle = Bundle(path: path) {
+      return bundle
+    }
 
     // SPM
-    if let bundle = Bundle(path: path + "/" + "BIASystemKit_BIASystemKit.bundle") {
+    if let bundle = Bundle(path: bundleClass.bundlePath + "/" + "BIASystemKit_BIASystemKit.bundle") {
       return bundle
     }
 
     // SPM - Test
-    if let bundle = Bundle(path: path + "/" + "BIASystemKitTests.xctest") {
+    if let bundle = Bundle(path: bundleClass.bundlePath + "/" + "BIASystemKitTests.xctest") {
       return bundle
     }
 
-    return Bundle(for: DeviceHelper.self)
+    return bundleClass
   }
 }
