@@ -21,6 +21,17 @@ class ExampleViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
 
+    let label = UILabel()
+    label.text = "\(viewModel.deviceName)\n(\(viewModel.modelName))"
+    label.numberOfLines = 2
+    label.textColor = .white
+    label.textAlignment = .center
+    label.frame = view.frame
+    label.center = view.center
+    label.translatesAutoresizingMaskIntoConstraints = true
+    view.addSubview(label)
+    view.backgroundColor = .black
+
     viewModel.deviceInfos.forEach({ print($0) })
   }
 }

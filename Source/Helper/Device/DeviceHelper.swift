@@ -21,7 +21,7 @@ public final class DeviceHelper {
     return formattedName ?? modelName
   }
 
-  init(for device: UIDevice) {
+  init(for device: UIDevice = .current) {
     self.modelName = device.modelName
     self.version = device.systemVersion
     self.formattedName = Device.formattedName(modelName: modelName)

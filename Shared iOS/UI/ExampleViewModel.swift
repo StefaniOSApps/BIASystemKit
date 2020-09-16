@@ -10,11 +10,19 @@ import BIASystemKit
 extension ExampleViewController {
   final class ViewModel {
 
-    let deviceInfos = [
-      "Device: '\(BIAInfo.device(for: .current).formattedNameIfPossible)' (\(BIAInfo.device(for: .current).modelName))",
-      "Jailbroken: \(BIAInfo.secure.isJailBroken)",
-      "Activ processors: \(BIAInfo.processor.activeCount) of \(BIAInfo.processor.count).",
-      "System upTime: \(BIAInfo.system.upTime.rounded()) ms (\(BIAInfo.system.upTime(unitsStyle: .short) ?? "n.v."))."
-    ]
+    let deviceName: String
+    let modelName: String
+    let deviceInfos: [String]
+
+    init() {
+      self.deviceName = BIAInfo.device(for: .current).formattedNameIfPossible
+      self.modelName = BIAInfo.device(for: .current).modelName
+      self.deviceInfos = [
+        "Device: '\(deviceName)' (\(modelName))",
+        "Jailbroken: \(BIAInfo.secure.isJailBroken)",
+        "Activ processors: \(BIAInfo.processor.activeCount) of \(BIAInfo.processor.count).",
+        "System upTime: \(BIAInfo.system.upTime.rounded()) ms (\(BIAInfo.system.upTime(unitsStyle: .short) ?? "n.v."))."
+      ]
+    }
   }
 }
