@@ -1,0 +1,9 @@
+platform :ios, '9.0'
+
+target 'Example' do
+  use_frameworks!
+
+  pod 'BIASystemKit',
+    git: 'https://github.com/StefaniOSApps/BIASystemKit.git',
+    branch: 'swift-5.3-beta'
+end

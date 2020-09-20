@@ -4,21 +4,6 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>BIASystemKit.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>2</integer>
-		</dict>
-		<key>Example ObjC.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>1</integer>
-		</dict>
-		<key>Example Swift.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>0</integer>
-		</dict>
 		<key>Tests.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -43,6 +28,16 @@
 			<true/>
 		</dict>
 		<key>36A02A5F2496CE2A00DBDEB6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BIASystemKit::BIASystemKit</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BIASystemKit::BIASystemKitTests</key>
 		<dict>
 			<key>primary</key>
 			<true/>

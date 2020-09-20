@@ -1,0 +1,22 @@
+PODS:
+  - BIASystemKit (2.0)
+
+DEPENDENCIES:
+  - BIASystemKit (from `https://github.com/StefaniOSApps/BIASystemKit.git`, branch `swift-5.3-beta`)
+
+EXTERNAL SOURCES:
+  BIASystemKit:
+    :branch: swift-5.3-beta
+    :git: https://github.com/StefaniOSApps/BIASystemKit.git
+
+CHECKOUT OPTIONS:
+  BIASystemKit:
+    :commit: 5d9ff26ed9f01a8a9360bcbb640dcc35d6eb3bcb
+    :git: https://github.com/StefaniOSApps/BIASystemKit.git
+
+SPEC CHECKSUMS:
+  BIASystemKit: 1172b23777ac1970f9f94fd9c8d752b569c4ab32
+
+PODFILE CHECKSUM: ce45a6eb69abd4aac41362a3112dcec7c799c9b4
+
+COCOAPODS: 1.9.3
