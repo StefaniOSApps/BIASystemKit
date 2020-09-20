@@ -2,11 +2,11 @@ PODS:
   - BIASystemKit (2.0)
 
 DEPENDENCIES:
-  - BIASystemKit (from `https://github.com/StefaniOSApps/BIASystemKit.git`, branch `swift-5.3-beta`)
+  - BIASystemKit (from `https://github.com/StefaniOSApps/BIASystemKit.git`, branch `master`)
 
 EXTERNAL SOURCES:
   BIASystemKit:
-    :branch: swift-5.3-beta
+    :branch: master
     :git: https://github.com/StefaniOSApps/BIASystemKit.git
 
 CHECKOUT OPTIONS:
