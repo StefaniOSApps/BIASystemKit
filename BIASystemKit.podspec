@@ -7,10 +7,11 @@ Pod::Spec.new do |s|
   s.authors = { 'Stefan Nebel' => 'support@best-ios-apps.de' }
   s.source = { 
     :git => 'https://github.com/StefaniOSApps/BIASystemKit.git', 
-    :branch => 'swift-5.3-beta' }
+    :tag => s.version.to_s
+  }
   s.source_files = 'Source/**/*.{swift}'
   s.swift_version = '5.3'
-  s.resources = ['Source/Ressources/*.{json}']
+  s.resources = ['Source/Resources/*.{json}']
   s.ios.deployment_target = '9.0'
   s.ios.framework  = 'UIKit'
   s.test_spec 'BIASystemKitTests' do |test_spec|
