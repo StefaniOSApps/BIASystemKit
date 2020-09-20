@@ -3,8 +3,6 @@ name: Testing
 on:
   pull_request:
     branches: [ master ]
-  push:
-    branches: [ master ]
 
 jobs:
   build:
@@ -19,6 +17,8 @@ jobs:
         uses: actions/checkout@master
       - name: Bundle Install
         run: bundle install
+      - name: Bundle Update
+        run: bundle update
       - name: Build and test
         run: bundle exec fastlane ios laneTests
 
