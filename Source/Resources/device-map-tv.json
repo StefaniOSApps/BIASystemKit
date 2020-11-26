@@ -1,0 +1,26 @@
+[
+  {
+    "modelName": "AppleTV1,1",
+    "formatted": "Apple TV (1st Gen)"
+  },
+  {
+    "modelName": "AppleTV2,1",
+    "formatted": "Apple TV (2nd Gen)"
+  },
+  {
+    "modelName": "AppleTV3,1",
+    "formatted": "Apple TV (3rd Gen)"
+  },
+  {
+    "modelName": "AppleTV3,2",
+    "formatted": "Apple TV (3rd Gen)"
+  },
+  {
+    "modelName": "AppleTV5,3",
+    "formatted": "Apple TV HD (4th Gen)"
+  },
+  {
+    "modelName": "AppleTV6,2",
+    "formatted": "Apple TV 4K"
+  }
+]
