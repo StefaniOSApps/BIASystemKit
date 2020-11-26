@@ -2,176 +2,249 @@
   {
     "modelName": "iPad1,1",
     "formatted": "iPad 1 (Wifi)"
-  },{
+  },
+  {
     "modelName": "iPad1,2",
     "formatted": "iPad 1 (Wifi + Cellular)"
-  },{
+  },
+  {
     "modelName": "iPad2,1",
     "formatted": "iPad 2 (Wifi)"
-  },{
+  },
+  {
     "modelName": "iPad2,2",
     "formatted": "iPad 2 (GSM)"
-  },{
+  },
+  {
     "modelName": "iPad2,3",
     "formatted": "iPad 2 (3)"
-  },{
+  },
+  {
     "modelName": "iPad2,4",
     "formatted": "iPad 2 (Wifi)"
-  },{
+  },
+  {
     "modelName": "iPad2,5",
     "formatted": "iPad Mini (Wifi)"
-  },{
+  },
+  {
     "modelName": "iPad2,6",
     "formatted": "iPad Mini (Wifi + Cellular)"
-  },{
+  },
+  {
     "modelName": "iPad2,7",
     "formatted": "iPad Mini (Wifi + Cellular)"
-  },{
+  },
+  {
     "modelName": "iPad3,1",
     "formatted": "iPad 3 (Wifi)"
-  },{
+  },
+  {
     "modelName": "iPad3,2",
     "formatted": "iPad 3 (Wifi + Cellular)"
-  },{
+  },
+  {
     "modelName": "iPad3,3",
     "formatted": "iPad 3 (Wifi + Cellular)"
-  },{
+  },
+  {
     "modelName": "iPad3,4",
     "formatted": "iPad 4 (Wifi)"
-  },{
+  },
+  {
     "modelName": "iPad3,5",
     "formatted": "iPad 4 (Wifi + Cellular)"
-  },{
+  },
+  {
     "modelName": "iPad3,6",
     "formatted": "iPad 4 (Wifi + Cellular)"
-  },{
+  },
+  {
     "modelName": "iPad4,1",
     "formatted": "iPad AIR (Wifi)"
-  },{
+  },
+  {
     "modelName": "iPad4,2",
     "formatted": "iPad AIR (Wifi + Cellular)"
-  },{
+  },
+  {
     "modelName": "iPad4,3",
     "formatted": "iPad AIR (Wifi + Cellular)"
-  },{
+  },
+  {
     "modelName": "iPad4,4",
     "formatted": "iPad Mini 2 (Wifi)"
-  },{
+  },
+  {
     "modelName": "iPad4,5",
     "formatted": "iPad Mini 2 (Wifi + Cellular)"
-  },{
+  },
+  {
     "modelName": "iPad4,6",
     "formatted": "iPad Mini 2 (Wifi + Cellular)"
-  },{
+  },
+  {
     "modelName": "iPad4,7",
     "formatted": "iPad Mini 3 (Wifi)"
-  },{
+  },
+  {
     "modelName": "iPad4,8",
     "formatted": "iPad Mini 3 (Wifi + Cellular)"
-  },{
+  },
+  {
     "modelName": "iPad4,9",
     "formatted": "iPad Mini 3 (Wifi + Cellular)"
-  },{
+  },
+  {
     "modelName": "iPad5,1",
     "formatted": "iPad Mini 4 (Wifi)"
-  },{
+  },
+  {
     "modelName": "iPad5,2",
     "formatted": "iPad Mini 4 (Wifi + Cellular)"
-  },{
+  },
+  {
     "modelName": "iPad5,3",
     "formatted": "iPad AIR 2 (Wifi)"
-  },{
+  },
+  {
     "modelName": "iPad5,4",
     "formatted": "iPad AIR 2 (Wifi + Cellular)"
-  },{
+  },
+  {
     "modelName": "iPad6,3",
     "formatted": "iPad PRO 9.7\" (Wifi)"
-  },{
+  },
+  {
     "modelName": "iPad6,4",
     "formatted": "iPad PRO 9.7\" (Wifi + Cellular)"
-  },{
+  },
+  {
     "modelName": "iPad6,7",
     "formatted": "iPad PRO 12.9\" (Wifi)"
-  },{
+  },
+  {
     "modelName": "iPad6,8",
     "formatted": "iPad PRO 12.9\" (Wifi + Cellular)"
-  },{
+  },
+  {
     "modelName": "iPad6,11",
     "formatted": "iPad (5th generation) (Wifi)"
-  },{
+  },
+  {
     "modelName": "iPad6,12",
     "formatted": "iPad (5th generation) (Wifi + Cellular)"
-  },{
+  },
+  {
     "modelName": "iPad7,1",
     "formatted": "iPad PRO 12.9\" (2nd Gen) (Wifi)"
-  },{
+  },
+  {
     "modelName": "iPad7,2",
     "formatted": "iPad PRO 12.9\" (2nd Gen) (Wifi + Cellular)"
-  },{
+  },
+  {
     "modelName": "iPad7,3",
     "formatted": "iPad PRO 10.5\" (Wifi)"
-  },{
+  },
+  {
     "modelName": "iPad7,4",
     "formatted": "iPad PRO 10.5\" (Wifi + Cellular)"
-  },{
+  },
+  {
     "modelName": "iPad7,5",
     "formatted": "iPad (6th Gen) (Wifi)"
-  },{
+  },
+  {
     "modelName": "iPad7,6",
     "formatted": "iPad (6th Gen) (Wifi + Cellular)"
-  },{
+  },
+  {
     "modelName": "iPad7,11",
     "formatted": "iPad (7th Gen) (Wifi)"
-  },{
+  },
+  {
     "modelName": "iPad7,12",
     "formatted": "iPad (7th Gen) (Wifi + Cellular)"
-  },{
+  },
+  {
     "modelName": "iPad8,1",
     "formatted": "iPad PRO 11\" (Wifi)"
-  },{
+  },
+  {
     "modelName": "iPad8,2",
     "formatted": "iPad PRO 11\" (1TB, Wifi)"
-  },{
+  },
+  {
     "modelName": "iPad8,3",
     "formatted": "iPad PRO 11\" (Wifi + Cellular)"
-  },{
+  },
+  {
     "modelName": "iPad8,4",
     "formatted": "iPad PRO 11\" (1TB, Wifi + Cellular)"
-  },{
+  },
+  {
     "modelName": "iPad8,5",
     "formatted": "iPad PRO 12.9\" (3rd Gen) (Wifi)"
-  },{
+  },
+  {
     "modelName": "iPad8,6",
     "formatted": "iPad PRO 12.9\" (3rd Gen) (1TB, Wifi)"
-  },{
+  },
+  {
     "modelName": "iPad8,7",
     "formatted": "iPad PRO 12.9\" (3rd Gen) (Wifi + Cellular)"
-  },{
+  },
+  {
     "modelName": "iPad8,8",
     "formatted": "iPad PRO 12.9\" (3rd Gen) (1TB, Wifi + Cellular)"
-  },{
+  },
+  {
     "modelName": "iPad8,9",
     "formatted": "iPad PRO 11\" (2nd Gen) (Wifi)"
-  },{
+  },
+  {
     "modelName": "iPad8,10",
     "formatted": "iPad PRO 11\" (2nd Gen) (1TB, Wifi)"
-  },{
+  },
+  {
     "modelName": "iPad8,11",
     "formatted": "iPad PRO 12.9\" (4th Gen) (Wifi)"
-  },{
+  },
+  {
     "modelName": "iPad8,12",
     "formatted": "iPad PRO 12.9\" (4th Gen) (Wifi + Cellular)"
-  },{
+  },
+  {
     "modelName": "iPad11,1",
     "formatted": "iPad mini 5th Gen (Wifi)"
-  },{
+  },
+  {
     "modelName": "iPad11,2",
     "formatted": "iPad mini 5th Gen (Wifi + Cellular)"
-  },{
+  },
+  {
     "modelName": "iPad11,3",
     "formatted": "iPad Air 3rd Gen (Wifi)"
-  },{
+  },
+  {
     "modelName": "iPad11,4",
     "formatted": "iPad Air 3rd Gen (Wifi + Cellular)"
+  },
+  {
+    "modelName": "iPad11,6",
+    "formatted": "iPad 8th Gen (WiFi)"
+  },
+  {
+    "modelName": "iPad11,7",
+    "formatted": "iPad 8th Gen (WiFi + Cellular)"
+  },
+  {
+    "modelName": "iPad13,1",
+    "formatted": "iPad air 4th Gen (WiFi)"
+  },
+  {
+    "modelName": "iPad13,2",
+    "formatted": "iPad air 4th Gen (WiFi + Celular)"
   }
 ]
