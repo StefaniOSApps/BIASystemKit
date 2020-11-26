@@ -17,7 +17,8 @@ enum Device {
     "device-map-ipod",
     "device-map-iphone",
     "device-map-iwatch",
-    "device-map-simulator"
+    "device-map-simulator",
+    "device-map-tv"
   ]
 
   private static let list = filenames.map({ devices(filename: $0) }).flatMap({ $0 })
